@@ -22,13 +22,12 @@ De resource- en dashboardstap is bewust handmatig: HACS installeert code, maar h
 ## Wat dit pakket bevat
 
 - `custom_components/skywatch_radar/`: de Home Assistant-integratie met configuratiescherm, validatie, foutafhandeling, cache en WebSocket-endpoint.
-- `www/skywatch-radar/`: de Lovelace Canvas-kaart en de lokale Nederlandse detailkaart.
-- `www/skywatch-world/`: 401 wereldwijde tegels met kust-, landsgrens- en meerlijnen op radarschaal; de kaart laadt alleen de tegels rond het gekozen centrum.
+- `custom_components/skywatch_radar/static/`: de Lovelace Canvas-kaart en 401 wereldwijde tegels met kust-, landsgrens- en meerlijnen. De kaart laadt alleen de tegels rond het gekozen centrum.
 - `dashboard/skywatch-radar-dashboard.yaml`: een generiek dashboard voor de kaart.
 
 ## Eisen en grenzen
 
-- Home Assistant 2026.10 of nieuwer.
+- Home Assistant 2024.7 of nieuwer.
 - ADSB.fi Open Data is de enige vluchtbron. Gebruik uitsluitend volgens de actuele voorwaarden van ADSB.fi, waaronder persoonlijk en niet-commercieel gebruik.
 - Internettoegang vanaf Home Assistant naar `opendata.adsb.fi`.
 - Dit is een radarvisualisatie, niet geschikt voor navigatie, luchtvaartveiligheid of juridische grensbepaling.
