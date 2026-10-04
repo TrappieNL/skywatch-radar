@@ -1,0 +1,10 @@
+This distribution contains geographic data with separate terms:
+
+* Natural Earth boundary, coastline and lake data are public domain.
+* The Markermeer geometry is derived from OpenStreetMap data and is made
+  available under the Open Database License (ODbL). Attribution to
+  OpenStreetMap contributors is displayed in the radar card and retained in
+  the bundled data file.
+
+The MIT license in LICENSE applies to the SkyWatch Radar software, not to
+these third-party geographic data terms.

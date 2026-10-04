@@ -1,0 +1,10 @@
+title: SkyWatch Radar
+views:
+  - title: Radar
+    path: radar
+    icon: mdi:radar
+    type: panel
+    cards:
+      - type: custom:skywatch-radar
+        title: SkyWatch Radar
+        refresh_seconds: 2
