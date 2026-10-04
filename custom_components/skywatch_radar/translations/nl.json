@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SkyWatch Radar",
+        "description": "Kies zelf het radarcentrum met breedte- en lengtegraad in decimale graden en stel het maximale bereik in.",
+        "data": {
+          "latitude": "Breedtegraad",
+          "longitude": "Lengtegraad",
+          "radius_km": "Maximaal bereik (km)"
+        }
+      }
+    },
+    "error": {
+      "invalid_coordinates": "Gebruik geldige coördinaten."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Pas het radarcentrum voor jouw regio aan met breedte- en lengtegraad in decimale graden.",
+        "data": {
+          "latitude": "Breedtegraad",
+          "longitude": "Lengtegraad",
+          "radius_km": "Maximaal bereik (km)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "status": {
+        "name": "Status"
+      },
+      "aircraft": {
+        "name": "Vliegtuigen"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SkyWatch Radar",
+        "description": "Choose the radar centre with decimal latitude and longitude, then set the maximum range.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "radius_km": "Maximum range (km)"
+        }
+      }
+    },
+    "error": {
+      "invalid_coordinates": "Enter valid coordinates."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "description": "Adjust the radar centre for your region using decimal latitude and longitude.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "radius_km": "Maximum range (km)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "status": {
+        "name": "Status"
+      },
+      "aircraft": {
+        "name": "Aircraft"
+      }
+    }
+  }
+}
